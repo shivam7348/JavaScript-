@@ -22,3 +22,14 @@ handdleObject({
     username: "shivam",
     price: 199
 })
+// pasing he aaary
+
+
+const myNewArray = [200, 400, 500, 1000]
+
+function returnSecondValue(getArray) {
+    return getArray[1]
+}
+
+console.log((returnSecondValue(myNewArray)));
+
