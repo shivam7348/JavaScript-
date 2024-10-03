@@ -44,8 +44,37 @@
 //      console.log(`User Power: ${power}`);
 
 
-const balane = 1000
-if(balane < 500 )  console.log("test")     // impilicit scope man liya hai only one line
+const balance = 1000
+// if(balane < 500 )  console.log("test")     // impilicit scope man liya hai only one line
+
+// if(balance < 500) {
+//   console.log("less than");
+  
+// } else if (balance <750) {
+//     console.log("less than 750");
+    
+// } else if (balance < 900) {
+//         console.log("less than 900");
+        
+// } else {
+//     console.log(`less than 1200`);
+    
+// }
+ 
+
+const userLoggedIn  = true;
+const debitCrad = true
+const LoggedInFromGoogle = false
+const LoggedInFromEmail = true
 
 
+// if (userLoggedIn && debitCrad &&) {     // && and//               
+//   console.log( `Allow to buy courses`);
+  
+// }
+
+if(LoggedInFromGoogle || LoggedInFromEmail ||guestUser) {
+   console.log("User logged in");
+   
+}
 
