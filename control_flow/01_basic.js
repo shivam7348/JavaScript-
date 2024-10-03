@@ -35,10 +35,17 @@
 // }
 // console.log("execute");
 
-const score = 200
- if (score > 100) {
-    const power = "fly"
-    console.log(`User Power: ${power}`);
+// const score = 200
+//  if (score > 100) {
+//     const power = "fly"
+//     console.log(`User Power: ${power}`);
     
- }
-     console.log(`User Power: ${power}`);
+//  }
+//      console.log(`User Power: ${power}`);
+
+
+const balane = 1000
+if(balane < 500 )  console.log("test")     // impilicit scope man liya hai only one line
+
+
+
