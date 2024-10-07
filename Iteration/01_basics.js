@@ -1,7 +1,23 @@
- const myNums = [ 1, 2, 3, 4, 5, 6, 7 , 8 ,9, 10]
+// 
 
-  const newNums  = myNums.filter( ( num) => {
-    return num > 2
-  })
-  console.log(newNums );
+const Book = [
+  {
+    title: 'BookOne', genre: 'fiction', publish: 1981, edition: 2024
+  },
+  {
+    title: 'BookOne', genre: 'fiction', publish: 1981, edition: 2024,
+  }, 
+  {
+    title: 'BookOne', genre: 'fiction', publish: 1981, edition: 1989, 
+  },
+  {
+    title: 'BookOne', genre: 'Nonfiction', publish: 1981, edition: 1989,  
+  },
+  {
+    title: 'BookOne', genre: 'Nonfiction', publish: 1981, edition: 1989,
+  }, 
+]
+  const userBooks  =  Book.filter( (bk) => bk.genre === 'fiction' )
+
+  console.log(userBooks);
   
