@@ -1,11 +1,20 @@
 //Mapp function start
 
-const myNums = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+const myNumbers = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
- const newNumbers = myNums.map( ( num) =>{ 
-    return  num  % 2
-})
+//  const newNumbers = myNums.map( ( num) =>{ 
+    // return  num  % 2
+// })
 
-console.log(newNumbers);
+// console.log(newNumbers);
 
-// For each MEthod
+// Chaining method ////////////
+   const NewNums = myNumbers
+                   .map( (num) => num * 10)
+                  .map( (num) => num + 1 )
+                  .filter( (num) => num >= 40)
+
+
+ console.log(NewNums);
+
+ 
