@@ -15,15 +15,32 @@ const jsUser = {
   "address" : "jaipur",
   email : "jaipur@gmail.com",
   lastLogin: "2015-"
+ 
 
 }
 
+// // console.log(jsUser["email"]);
 // console.log(jsUser["email"]);
-console.log(jsUser["email"]);
-console.log(jsUser["fullName"]);
-console.log(  jsUser[mySym]);
+// console.log(jsUser["fullName"]);
+// console.log(  jsUser[mySym]);
 
 jsUser.email = "hiteshChat@gmail.com";
-Object.freeze(jsUser)
+// Object.freeze(jsUser)
 jsUser.email = "sachin73636@gsmdil.com"
-console.log(jsUser);
+// console.log(js);
+
+// jsUser.greetings =  function () {
+//     console.log("hello js world");
+    
+// }
+
+// console.log(jsUser.greetings());
+
+// console.log(jsUser.greetings())
+
+jsUser.greetingsTwo  = function () {
+     console.log(`Hello js User, ${this.name}`);
+     
+}
+
+console.log(jsUser.greetingsTwo());
