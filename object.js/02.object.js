@@ -27,7 +27,7 @@ const obj4  = {5 : "a", 6: "d"}
 // const obj3 = { obj1, obj2}
 //  const obj3 = Object.assign({}, obj1, obj2, obj4)
 const obj3 = {...obj1, ...obj2, ...obj4}
-console.log(obj3);
+// console.log(obj3);
 
 
 const users = [
@@ -50,13 +50,26 @@ const users = [
 ]
 
 users[1].email
-console.log(tinderApp);
+// console.log(tinderApp);
 
-console.log(Object.keys(tinderApp));
+// console.log(Object.keys(tinderApp));
+// console.log(Object.values(tinderApp));
+// console.log(Object.entries(tinderApp));
 
-console.log(Object.values(tinderApp));
-console.log(Object.entries(tinderApp));
+
+// console.log(tinderApp.hasOwnProperty('isLoggedIn'));
 
 
-console.log(tinderApp.hasOwnProperty('isLoggedIn'));
+const course = {
+    courseName: "JsHindi",
+    price: 999,
+    courseInstructor: "Hitesh"
+}
+// course.courseInstructor
 
+const {courseInstructor: instructor} = course
+console.log(instructor);
+
+const navbar = ( ) => {
+
+}
