@@ -58,7 +58,7 @@ users[1].email
 
 
 // console.log(tinderApp.hasOwnProperty('isLoggedIn'));
-
+//  object distructure how  we do in react
 
 const course = {
     courseName: "JsHindi",
@@ -70,6 +70,17 @@ const course = {
 const {courseInstructor: instructor} = course
 console.log(instructor);
 
-const navbar = ( ) => {
+//  {
+//     // object is a json
+//  }
 
-}
+//  {
+//     "name": "shiva,",
+//     "coursename" : "js in hind",
+//     "price": "199",
+//     "instructor": "hitesh"
+//  }
+ [{},
+    {},
+    {}
+ ]
