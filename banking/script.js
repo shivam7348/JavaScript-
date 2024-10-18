@@ -20,7 +20,6 @@ function deposit() {
 }
 
 
-
 function withdraw() {
     const withdrawInput = document.getElementById("withdrawAmount").value;
     const withdrawAmount = parseFloat(withdrawInput)
