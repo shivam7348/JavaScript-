@@ -18,15 +18,17 @@ for (const key in programing) {
         
     }
 
-const map = new Map()
-map.set("IN", "India")
-map.set("US", "United state of America")
-map.set("JP", "Japan")
-map.set("fr", "france")
-map.set("jan", "Jaunpur")
+// const map = new Map()
+// map.set("IN", "India")
+// map.set("US", "United state of America")
+// map.set("JP", "Japan")
+// map.set("fr", "france")
+// map.set("jan", "Jaunpur")
  
-for (const key in map) {
-    console.log(key);
+// for (const key in map) {
+//     console.log(key);
     
-    }
+//     }
 
+
+// for eac
