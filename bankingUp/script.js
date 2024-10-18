@@ -18,6 +18,18 @@ if (depositAmount > 0 ) {
     displayBalance();
 } else {
     alert ("Please enter a valid deposit amount");
+
     document.getElementById('depositAmount').value = "";
 }
 
+function withdraw() {
+    const withdrawInput = document.getElementById('withdrawAmount').value;
+    const withdrawAmount = parseFloat(withdrawInput);
+}
+
+if( withdrawAmount <= 0) {
+    if( wi) {
+
+    }
+
+}
