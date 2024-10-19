@@ -137,3 +137,5 @@ const shoppingCart = [
 const totalPrice = shoppingCart.reduce((sum, item) => sum + item.price, 0);
 
 console.log(totalPrice);
+
+
